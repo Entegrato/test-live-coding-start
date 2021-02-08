@@ -1,0 +1,11 @@
+package-lock.json
+node_modules
+storybook-static
+.idea
+.DS_Store
+lib
+build
+dist
+.cache
+.parcel
+.parcel-cache

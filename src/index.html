@@ -1,0 +1,14 @@
+<html>
+  <body>
+    <!-- Для маунта реакта -->
+    <div id="root"></div>
+    <script src="./index.tsx"></script>
+    <script>
+      var time = new Date();
+      console.time("Loading Page");
+      window.addEventListener("load", function () {
+        console.timeEnd('Loading Page', new Date() - time);
+      })
+    </script>
+  </body>
+</html>
